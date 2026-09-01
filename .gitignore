@@ -1,0 +1,17 @@
+# Datasets y datos locales
+data/
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Entornos virtuales (por si acaso)
+venv/
+env/
+.env
+__pycache__/
