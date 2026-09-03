@@ -1,0 +1,11 @@
+# Lab 6 - Transfer Learning & Fine-Tuning (ResNet-18 / CIFAR-10)
+# Instalar con:  pip install -r requirements.txt
+# Versiones fijadas a las usadas para generar los resultados del notebook.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.13.0+cpu
+torchvision==0.28.0+cpu
+numpy>=2.0
+matplotlib>=3.8
+ipykernel>=6.29

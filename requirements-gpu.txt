@@ -1,0 +1,18 @@
+# Variante GPU (CUDA). Usar en lugar de requirements.txt:
+#   pip install -r requirements-gpu.txt
+#
+# cu130 porque las GPUs Blackwell (RTX 50xx, compute capability 12.0 / sm_120)
+# necesitan CUDA 12.8 o superior. Los builds cu126 NO incluyen kernels sm_120.
+# Descarga ~3 GB de librerias CUDA.
+#
+# Los resultados del README se generaron en CPU; en GPU el orden de acumulacion
+# en punto flotante difiere y los numeros cambian ligeramente.
+
+--index-url https://download.pytorch.org/whl/cu130
+--extra-index-url https://pypi.org/simple
+
+torch==2.13.0+cu130
+torchvision==0.28.0+cu130
+numpy>=2.0
+matplotlib>=3.8
+ipykernel>=6.29
