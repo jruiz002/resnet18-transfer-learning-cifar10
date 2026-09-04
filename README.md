@@ -152,10 +152,3 @@ que sigue a la verificación del Bloque 4, como evidencia para la Pregunta 3b.
 
 ---
 
-## División del trabajo
-
-| Persona | Bloques | Preguntas |
-|---|---|---|
-| Jose Ruiz | 1 | 1 (a, b, c) |
-| Gerardo | 2 y 3 | — |
-| Jose Auyón | 4 | 2 y 3 |
